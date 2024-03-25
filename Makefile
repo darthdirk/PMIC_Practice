@@ -10,10 +10,10 @@ CFLAGS = -g -Wall
 LDFLAGS = -lm  #link against math Library
 
 # Target executable name
-TARGET = fofx
+TARGET = quadratic
 
 # Source files
-SRCS = fofx.c  # add other source files
+SRCS = quadratic.c  # add other source files
 
 # Object files (replace .c from SRCS with .o
 OBJS = $(SRCS:.c=.o)

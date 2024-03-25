@@ -1,7 +1,8 @@
 #include <stdio.h>
 
+
 float f_of_x(double x) {
-	return x * x - 3 * x + 2;
+	return ((x * x) + (- 3 * x) + 2);
 }
 
 int main() {
