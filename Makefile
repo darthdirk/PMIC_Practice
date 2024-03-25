@@ -10,10 +10,10 @@ CFLAGS = -g -Wall
 LDFLAGS = -lm  #link against math Library
 
 # Target executable name
-TARGET = character
+TARGET = leap
 
 # Source files
-SRCS = character.c  # add other source files
+SRCS = leap_year.c  # add other source files
 
 # Object files (replace .c from SRCS with .o
 OBJS = $(SRCS:.c=.o)
